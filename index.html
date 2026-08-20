@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Last Stander - AX7TL</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #0b1d3a;
+            background-image: 
+                linear-gradient(45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%), 
+                linear-gradient(-45deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%), 
+                linear-gradient(45deg, transparent 75%, rgba(0, 0, 0, 0.2) 75%), 
+                linear-gradient(-45deg, transparent 75%, rgba(0, 0, 0, 0.2) 75%);
+            background-size: 40px 40px;
+            background-position: 0 0, 0 20px, 20px -20px, -20px 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .content {
+            text-align: center;
+            z-index: 10;
+            position: relative;
+            margin-bottom: 80px;
+        }
+
+        h1 {
+            font-size: 4.5rem;
+            color: #3b82f6;
+            text-shadow: 0 0 20px rgba(59, 130, 246, 0.6), 0 0 40px rgba(0, 0, 0, 0.8);
+            margin: 0 0 20px 0;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        .swords-container {
+            font-size: 5rem;
+            color: #94a3b8;
+            text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+            margin-bottom: 20px;
+            animation: clashPulse 2s infinite alternate;
+        }
+
+        @keyframes clashPulse {
+            0% { transform: scale(1); filter: drop-shadow(0 0 5px #3b82f6); }
+            100% { transform: scale(1.05); filter: drop-shadow(0 0 15px #60a5fa); }
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #cbd5e1;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+        }
+
+        .fire-container {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 120px;
+            z-index: 5;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .fire {
+            position: absolute;
+            bottom: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            height: 150px;
+            background: linear-gradient(to top, rgba(255, 69, 0, 0.8), rgba(255, 140, 0, 0.6), transparent);
+            border-radius: 50% 50% 0 0;
+            filter: blur(15px);
+            animation: burn 0.8s infinite alternate ease-in-out;
+        }
+
+        .fire::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 20%;
+            width: 60%;
+            height: 120px;
+            background: linear-gradient(to top, rgba(255, 215, 0, 0.9), rgba(255, 69, 0, 0.5), transparent);
+            border-radius: 50% 50% 0 0;
+            filter: blur(10px);
+            animation: burn2 0.5s infinite alternate ease-in-out;
+        }
+
+        @keyframes burn {
+            0% { transform: translateX(-50%) scaleY(1) skewX(-2deg); opacity: 0.8; }
+            100% { transform: translateX(-50%) scaleY(1.2) skewX(2deg); opacity: 1; }
+        }
+
+        @keyframes burn2 {
+            0% { transform: translateX(-10%) scaleY(0.9); }
+            100% { transform: translateX(10%) scaleY(1.3); }
+        }
+
+        .footer-rights {
+            position: absolute;
+            bottom: 15px;
+            left: 20px;
+            z-index: 20;
+        }
+
+        .footer-rights a {
+            color: #94a3b8;
+            text-decoration: none;
+            font-size: 0.9rem;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 6px 12px;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: 0.3s;
+        }
+
+        .footer-rights a:hover {
+            color: #ffffff;
+            background: rgba(59, 130, 246, 0.3);
+            border-color: #3b82f6;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 100;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-content {
+            background-color: #0f172a;
+            padding: 30px;
+            border: 2px solid #3b82f6;
+            width: 80%;
+            max-width: 600px;
+            max-height: 70vh;
+            overflow-y: auto;
+            border-radius: 8px;
+            color: #e2e8f0;
+            text-align: left;
+            white-space: pre-wrap;
+            font-family: monospace;
+            font-size: 0.85rem;
+        }
+
+        .close-btn {
+            float: right;
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close-btn:hover {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <div class="swords-container">⚔️</div>
+        <h1>LAST STANDER</h1>
+        <p>Official Platform & Software Distribution by AX7TL</p>
+    </div>
+
+    <div class="fire-container">
+        <div class="fire"></div>
+    </div>
+
+    <div class="footer-rights">
+        <a href="javascript:void(0);" onclick="openEULA()">© 2026 AX7TL. All Rights Reserved. (EULA)</a>
+    </div>
+
+    <div id="eulaModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeEULA()">&times;</span>
+            <h3>FINAL USER LICENSE AGREEMENT (EULA)</h3>
+
+================================================================================
+FINAL USER LICENSE AGREEMENT (EULA) & TERMS OF USE
+================================================================================
+
+Copyright (c) 2026 AX7TL. All Rights Reserved.
+
+NOTICE TO USER: Please read this Agreement carefully. By downloading, accessing, 
+installing, or using this software, game, or related materials, you signify your 
+assent to and acceptance of all terms and conditions contained herein. If you do 
+not agree to all the terms of this Agreement, do not install or use this software.
+
+--------------------------------------------------------------------------------
+1. OWNERSHIP AND INTELLECTUAL PROPERTY RIGHTS
+--------------------------------------------------------------------------------
+This software, game, associated source code, visual assets, audio, narrative, 
+character designs, documentation, and all related intellectual property are the 
+exclusive property of the creator and copyright holder, known as AX7TL (Discord: ax7tl). 
+Protected by international copyright laws and treaties, all rights not expressly 
+granted to you herein are reserved by the author.
+
+--------------------------------------------------------------------------------
+2. PERMITTED USE
+--------------------------------------------------------------------------------
+You are granted a personal, non-exclusive, non-transferable, revocable license to 
+download and play/use this software for strictly personal, non-commercial purposes 
+only. You may not use this software for any public exhibition, commercial enterprise, 
+or monetization scheme without prior written authorization from AX7TL.
+
+--------------------------------------------------------------------------------
+3. PROHIBITED CONDUCT AND UNLAWFUL SHARING
+--------------------------------------------------------------------------------
+Strictly prohibited actions include, but are not limited to:
+- Decompiling, reverse engineering, disassembling, modifying, hacking, or attempting 
+  to extract the source code of this software.
+- Unauthorized redistribution, uploading, mirroring, file-sharing, reselling, or 
+  sublicensing of this software, modified versions, or assets derived from it, 
+  on any website, torrent tracker, file hosting service, or external platform 
+  without explicit, written consent from AX7TL.
+- Using this software or its assets to create unauthorized derivative works, 
+  clones, or competing products.
+
+--------------------------------------------------------------------------------
+4. DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS 
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE 
+COPYRIGHT HOLDER (AX7TL) BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+OR TORT ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
+THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+5. USER WARNINGS AND HEALTH PRECAUTIONS
+--------------------------------------------------------------------------------
+- Photosensitive Seizures: A very small percentage of individuals may experience 
+  epileptic seizures when exposed to certain light patterns or flashing lights 
+  present in video games or software. If you experience any symptoms, stop 
+  playing immediately and consult a physician.
+- Health and Ergonomics: Take frequent breaks during extended usage. Discontinue 
+  use immediately if you experience fatigue, discomfort, or pain in your hands, 
+  wrists, arms, or eyes.
+
+--------------------------------------------------------------------------------
+6. CONTACT AND SUPPORT
+--------------------------------------------------------------------------------
+For official permissions, bug reports, inquiries, or official communication, 
+you may contact the creator through the official Discord handle: ax7tl.
+
+</pre>
+        </div>
+    </div>
+
+    <script>
+        function openEULA() {
+            document.getElementById('eulaModal').style.display = 'flex';
+        }
+        function closeEULA() {
+            document.getElementById('eulaModal').style.display = 'none';
+        }
+        window.onclick = function(event) {
+            var modal = document.getElementById('eulaModal');
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
