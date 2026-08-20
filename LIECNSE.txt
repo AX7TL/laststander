@@ -1,0 +1,72 @@
+================================================================================
+FINAL USER LICENSE AGREEMENT (EULA) & TERMS OF USE
+================================================================================
+
+Copyright (c) 2026 AX7TL. All Rights Reserved.
+
+NOTICE TO USER: Please read this Agreement carefully. By downloading, accessing, 
+installing, or using this software, game, or related materials, you signify your 
+assent to and acceptance of all terms and conditions contained herein. If you do 
+not agree to all the terms of this Agreement, do not install or use this software.
+
+--------------------------------------------------------------------------------
+1. OWNERSHIP AND INTELLECTUAL PROPERTY RIGHTS
+--------------------------------------------------------------------------------
+This software, game, associated source code, visual assets, audio, narrative, 
+character designs, documentation, and all related intellectual property are the 
+exclusive property of the creator and copyright holder, known as AX7TL (Discord: ax7tl). 
+Protected by international copyright laws and treaties, all rights not expressly 
+granted to you herein are reserved by the author.
+
+--------------------------------------------------------------------------------
+2. PERMITTED USE
+--------------------------------------------------------------------------------
+You are granted a personal, non-exclusive, non-transferable, revocable license to 
+download and play/use this software for strictly personal, non-commercial purposes 
+only. You may not use this software for any public exhibition, commercial enterprise, 
+or monetization scheme without prior written authorization from AX7TL.
+
+--------------------------------------------------------------------------------
+3. PROHIBITED CONDUCT AND UNLAWFUL SHARING
+--------------------------------------------------------------------------------
+Strictly prohibited actions include, but are not limited to:
+- Decompiling, reverse engineering, disassembling, modifying, hacking, or attempting 
+  to extract the source code of this software.
+- Unauthorized redistribution, uploading, mirroring, file-sharing, reselling, or 
+  sublicensing of this software, modified versions, or assets derived from it, 
+  on any website, torrent tracker, file hosting service, or external platform 
+  without explicit, written consent from AX7TL.
+- Using this software or its assets to create unauthorized derivative works, 
+  clones, or competing products.
+
+--------------------------------------------------------------------------------
+4. DISCLAIMER OF WARRANTIES AND LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS 
+FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE 
+COPYRIGHT HOLDER (AX7TL) BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) 
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, 
+OR TORT ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
+THE POSSIBILITY OF SUCH DAMAGE.
+
+--------------------------------------------------------------------------------
+5. USER WARNINGS AND HEALTH PRECAUTIONS
+--------------------------------------------------------------------------------
+- Photosensitive Seizures: A very small percentage of individuals may experience 
+  epileptic seizures when exposed to certain light patterns or flashing lights 
+  present in video games or software. If you experience any symptoms, stop 
+  playing immediately and consult a physician.
+- Health and Ergonomics: Take frequent breaks during extended usage. Discontinue 
+  use immediately if you experience fatigue, discomfort, or pain in your hands, 
+  wrists, arms, or eyes.
+
+--------------------------------------------------------------------------------
+6. CONTACT AND SUPPORT
+--------------------------------------------------------------------------------
+For official permissions, bug reports, inquiries, or official communication, 
+you may contact the creator through the official Discord handle: ax7tl.
+
+================================================================================
