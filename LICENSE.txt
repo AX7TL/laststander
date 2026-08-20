@@ -1,0 +1,104 @@
+================================================================================
+          LAST STANDER - END USER LICENSE AGREEMENT & TERMS OF USE
+          Copyright (C) 2026 AX7TL. All Rights Reserved.
+================================================================================
+
+IMPORTANT: PLEASE READ THIS DOCUMENT CAREFULLY BEFORE DOWNLOADING, INSTALLING, 
+OR USING THIS GAME / SOFTWARE. BY ACCESSING OR USING THE SOFTWARE, YOU AGREE 
+TO BE BOUND BY THE TERMS OF THIS AGREEMENT. IF YOU DO NOT AGREE, DO NOT USE 
+THE SOFTWARE.
+
+--------------------------------------------------------------------------------
+1. INTRODUCTION & OWNERSHIP
+--------------------------------------------------------------------------------
+This game, website, and all associated software, source code, graphics, audio, 
+narrative, assets, and intellectual property (collectively, the "Software") are 
+solely owned and operated by AX7TL (the "Developer"). The Software is protected 
+by international copyright laws, international treaties, and other intellectual 
+property laws.
+
+--------------------------------------------------------------------------------
+2. GRANT OF LICENSE
+--------------------------------------------------------------------------------
+Subject to your strict compliance with this Agreement, the Developer grants you 
+a personal, limited, non-exclusive, non-transferable, revocable license to 
+download, install, and play the Software for your personal, non-commercial use only.
+
+--------------------------------------------------------------------------------
+3. RESTRICTIONS & PROHIBITED CONDUCT
+--------------------------------------------------------------------------------
+You agree NOT to do, and you shall not permit any third party to do, any of 
+the following:
+- Copy, reproduce, distribute, publicly display, or perform the Software or any 
+  part of it without explicit written permission from the Developer.
+- Reverse engineer, decompile, disassemble, hack, or attempt to extract the source 
+  code or underlying algorithms of the Software.
+- Modify, translate, or create derivative works based upon the Software.
+- Use the Software for any commercial purposes, monetization, or public broadcasting 
+  without prior authorization.
+- Utilize cheats, automation software (bots), hacks, mods, or any unauthorized 
+  third-party software designed to modify or interfere with the Software experience.
+- Remove, alter, or obscure any copyright, trademark, or other proprietary notices 
+  contained within the Software.
+
+--------------------------------------------------------------------------------
+4. INTELLECTUAL PROPERTY RIGHTS
+--------------------------------------------------------------------------------
+All title, ownership rights, and intellectual property rights in and to the 
+Software (including but not limited to any titles, computer code, themes, objects, 
+characters, character names, stories, dialog, catchphrases, locations, concepts, 
+artwork, animations, sounds, musical compositions, audio-visual effects) are owned 
+by the Developer. Unauthorized use is strictly prohibited and subject to legal 
+action.
+
+--------------------------------------------------------------------------------
+5. DISCLAIMER OF WARRANTIES
+--------------------------------------------------------------------------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE DEVELOPER BE 
+LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE 
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+--------------------------------------------------------------------------------
+6. LIMITATION OF LIABILITY
+--------------------------------------------------------------------------------
+To the maximum extent permitted by applicable law, the Developer shall not be 
+liable for any indirect, incidental, special, consequential, or punitive damages, 
+or any loss of profits or revenues, whether incurred directly or indirectly, or 
+any loss of data, use, goodwill, or other intangible losses resulting from your 
+access to or use of (or inability to access or use) the Software.
+
+--------------------------------------------------------------------------------
+7. HEALTH & SAFETY WARNINGS (PHOTOSENSITIVE SEIZURES)
+--------------------------------------------------------------------------------
+A very small percentage of individuals may experience epileptic seizures when 
+exposed to certain light patterns or flashing lights. Exposure to certain patterns 
+or backgrounds on a computer screen or while playing video games may induce an 
+epileptic seizure in these individuals. Certain conditions may induce previously 
+undetected epileptic symptoms even in users who have no history of prior seizures 
+or epilepsy. 
+
+If you, or anyone in your family, have an epileptic condition, consult your physician 
+prior to playing. IMMEDIATELY DISCONTINUE use and consult your doctor if you 
+experience any of the following symptoms while playing: dizziness, altered vision, 
+eye or muscle twitches, loss of awareness, disorientation, any involuntary movement, 
+or convulsions.
+
+--------------------------------------------------------------------------------
+8. TERMINATION
+--------------------------------------------------------------------------------
+This Agreement is effective until terminated. Your rights under this Agreement 
+will terminate automatically without notice from the Developer if you fail to 
+comply with any term(s) of this Agreement. Upon termination, you shall cease all 
+use of the Software and destroy all copies of the Software in your possession.
+
+--------------------------------------------------------------------------------
+9. CONTACT INFORMATION
+--------------------------------------------------------------------------------
+For any questions, concerns, or inquiries regarding this Agreement, licensing, 
+or permissions, you may contact the Developer at:
+Developer / Owner: AX7TL
+Project: Last Stander
+================================================================================
