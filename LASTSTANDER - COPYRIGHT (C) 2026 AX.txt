@@ -1,0 +1,30 @@
+LASTSTANDER - COPYRIGHT (C) 2026 AX7TL. ALL RIGHTS RESERVED.
+
+This software, including all its source code, design, assets, 
+game mechanics, and documentation (collectively "the Software"), 
+is the exclusive intellectual property of AX7TL.
+
+1. OWNERSHIP: 
+All rights, title, and interest in and to the Software are 
+and shall remain the sole and exclusive property of AX7TL.
+
+2. RESTRICTIONS:
+You are strictly prohibited from copying, modifying, 
+distributing, reverse engineering, or sub-licensing the Software 
+in whole or in part without the express, prior written 
+permission of the copyright owner, AX7TL {this not my real name}.
+
+3. UNAUTHORIZED USE:
+Any unauthorized use, reproduction, or distribution of this 
+Software, or any derivative works thereof, constitutes a 
+violation of copyright law and will be prosecuted to the 
+fullest extent permitted by applicable law.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
+NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE 
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY.
+
+CONTACT: 
+For licensing inquiries, please contact:[abdokilr2]
